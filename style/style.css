@@ -31,32 +31,68 @@ main{
 }
 
 #nav{
-    height: 3rem;
+    height: 3.5rem;
     margin-bottom: 0.3rem;
     padding: 1rem 0 1rem 3rem;
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
 }
 
-.bg-blue{
-    background-color: cornflowerblue;
-}
-
 .border-button{
     border: solid 1px hsl(0, 0%, 90%);
     border-radius: 5px;
+    padding: 3px;
 }
 
 h2{
-    font-size: 12px;
+    font-size: 16px;
+    margin-bottom: 3px;
 }
 
 .list{
     padding: 2rem 0 0 3rem;
 }
 
-ul li{
+li{
     margin-left: 1rem;
-    list-style-image: url(https://pngtree.com/freepng/3d-green-check-mark-icon_8926829.html);
+    margin-bottom: 1rem;
+    display: inline-block;
 }
 
+span{
+    border-radius: 25px;
+    padding: 3px;
+    font-size: 8px;
+    vertical-align: middle;
+    margin-left: 5px; 
+}
+
+.bg-blue{
+    background-color: cornflowerblue;
+    color: white;
+}
+
+.bg-purple{
+    background-color: rgb(129, 82, 228);
+    color: white;
+}
+
+.bg-green{
+    background-color: rgb(56, 189, 132);
+    color: white;
+}
+
+.bg-orange{
+    background-color: rgb(251, 162, 78);
+    color: white;
+}
+
+.bg-pink{
+    background-color: rgb(195, 60, 154);
+    color: white;
+}
+
+.bg-yellow{
+    background-color: rgb(199, 237, 87);
+    color: white;
+}
