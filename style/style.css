@@ -15,7 +15,7 @@ header{
     height: 3.5rem
 }
 
-.container{
+.bg-white{
     background-color: white;
 }
 
@@ -24,3 +24,39 @@ h1{
     vertical-align: top;
     padding: 0.5rem 0;
 }
+
+main{
+    max-width: 100%;
+    padding: 0 25%
+}
+
+#nav{
+    height: 3rem;
+    margin-bottom: 0.3rem;
+    padding: 1rem 0 1rem 3rem;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.bg-blue{
+    background-color: cornflowerblue;
+}
+
+.border-button{
+    border: solid 1px hsl(0, 0%, 90%);
+    border-radius: 5px;
+}
+
+h2{
+    font-size: 12px;
+}
+
+.list{
+    padding: 2rem 0 0 3rem;
+}
+
+ul li{
+    margin-left: 1rem;
+    list-style-image: url(https://pngtree.com/freepng/3d-green-check-mark-icon_8926829.html);
+}
+
