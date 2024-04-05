@@ -29,8 +29,8 @@ h1{
 }
 
 h2{
-    font-size: 16px;
-    margin-bottom: 3px;
+    font-size: 20px;
+    margin-bottom: 5px;
 }
 
                 /* nav */
@@ -49,6 +49,10 @@ h2{
 }
 
             /* to do list */
+ul{
+    list-style-type: none;
+}
+
 .list{
     padding: 2rem 0 0 3rem;
 }
@@ -56,7 +60,6 @@ h2{
 li{
     margin-left: 1rem;
     margin-bottom: 1rem;
-    
 }
 
 span{
@@ -65,6 +68,18 @@ span{
     font-size: 8px;
     vertical-align: middle;
     margin-left: 5px; 
+}
+
+.done{
+    height: 1.3rem;
+    margin-right: 0.5rem;
+    vertical-align: middle;
+}
+
+.undone{
+    height: 1.3rem;
+    margin-right: 0.5rem;
+    vertical-align: middle;
 }
 
                 /* bg style */
@@ -100,3 +115,4 @@ span{
     background-color: rgb(199, 237, 87);
     color: white;
 }
+
